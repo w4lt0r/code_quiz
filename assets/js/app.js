@@ -23,6 +23,38 @@ const allQuestions =
         {
             question: "What is 2 + 2?", answerA: "4", answerB: "2", answerC: "1", correctAnswer: "4"
         }
+
+        {
+            question: "What is 1 + 2?", answerA: "3", answerB: "2", answerC: "1", correctAnswer: "4"
+        }
+
+        {
+            question: "What is 2 + 3?", answerA: "4", answerB: "5", answerC: "1", correctAnswer: "4"
+        }
+
+        {
+            question: "What is 2 + 6?", answerA: "4", answerB: "2", answerC: "8", correctAnswer: "4"
+        }
+
+        {
+            question: "What is 3 + 3?", answerA: "4", answerB: "6", answerC: "1", correctAnswer: "4"
+        }
+
+        {
+            question: "What is 2 + 5?", answerA: "4", answerB: "2", answerC: "7", correctAnswer: "4"
+        }
+
+        {
+            question: "What is 5 + 4?", answerA: "9", answerB: "2", answerC: "1", correctAnswer: "4"
+        }
+
+        {
+            question: "What is 2 + 8?", answerA: "4", answerB: "10", answerC: "1", correctAnswer: "4"
+        }
+
+        {
+            question: "What is 4 + 7?", answerA: "4", answerB: "2", answerC: "11", correctAnswer: "4"
+        }
     ]
 
 function displayQuestion() {
