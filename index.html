@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div id="clock-container">
+      <p>Time left:</p>
+      <p id="time"></p>
+    </div>
+
+    <div id="score-container">
+      <p>Score:</p>
+      <p id="score"></p>
+    </div>
+
+    <div id="initials-container">
+      <input type="text" id="initials" maxlength="4" />
+      <button id="saveBtn">Save High Score</button>
+    </div>
+
     <div id="welcome">
-        <button id="start-button">Start</button>
+      <button id="start-button">Start</button>
     </div>
+
     <div id="questions">
-        <h1 id="current-question"></h1>
-        <button id="buttonA"></button>
-        <button id="buttonB"></button>
-        <button id="buttonC"></button>
+      <h1 id="current-question"></h1>
+      <button id="buttonA"></button>
+      <button id="buttonB"></button>
+      <button id="buttonC"></button>
     </div>
+
     <div id="score-board"></div>
+
     <script src="./assets/js/app.js"></script>
-</body>
+  </body>
 </html>
